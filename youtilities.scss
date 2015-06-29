@@ -1,0 +1,73 @@
+// # =================================================================
+// # Utilities
+// # =================================================================
+
+// # Alignment
+// # =================================================================
+.u-alignBoth {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.u-verticalAlign {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+// # Layout
+// # =================================================================
+.u-clearfix {
+  *zoom: 1; // Old IEs
+
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+      clear: both;
+  }
+}
+
+.u-floatLeft {
+  float: left !important;
+}
+
+.u-floatRight {
+  float: right !important;
+}
+
+// # Text alignment
+// # =================================================================
+.u-textRight {
+  text-align: right !important;
+}
+
+.u-textLeft {
+  text-align: left !important;
+}
+
+.u-textCenter {
+  text-align: center !important;
+}
+
+.u-textTruncate {
+  max-width: 100%;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  word-wrap: normal !important;
+}
+
+// # Misc
+// # =================================================================
+
+.u-imageReplace {
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+}

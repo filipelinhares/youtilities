@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+  <g transform="translate(0 -972.362)" fill="#e3f333" stroke-linejoin="round">
+    <rect width="58.036" height="20" ry="0" x="10.982" y="1009.416" stroke="#e3f333"/>
+    <path stroke="#fff" stroke-width=".5" stroke-opacity=".941" d="M19 1005.398h4.982v5.982H19z"/>
+    <path stroke="#fff" stroke-width=".5" stroke-opacity=".941" d="M19 1005.398h4.982v5.982H19zM56.68 1005.398h4.98v5.982h-4.98z"/>
+    <path stroke="#e3f333" d="M10 997.362h60v10.18H10z"/>
+    <path stroke="#e3f333" stroke-width=".5" d="M27 990.362h26v2H27z"/>
+    <text x="25.361" y="1020.361" style="line-height:125%" font-size="40" letter-spacing="0" word-spacing="0" stroke="#fff" stroke-opacity=".941" font-family="Sans">
+      <tspan x="25.361" y="1020.361">U</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "name": "youtilities",
+  "version": "0.1.0",
+  "homepage": "https://github.com/filipelinhares/youtilities",
+  "authors": [
+    "Filipe Linhares <lip.linhares@gmail.com>"
+  ],
+  "description": "A set of utilities classes",
+  "main": "youtilities.scss",
+  "keywords": [
+    "css",
+    "scss",
+    "util"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
