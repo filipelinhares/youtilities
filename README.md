@@ -6,6 +6,8 @@ A set of utilities classes built with [SUIT](https://github.com/suitcss/suit/blo
 #### Alignment
 - `.u-alignBoth`
 - `.u-verticalAlign`
+- `.u-pushLeft[5-100]`
+- `.u-pushRight[5-100]`
 
 #### Layout
 - `.u-clearfix`

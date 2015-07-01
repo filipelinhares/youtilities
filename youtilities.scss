@@ -17,6 +17,20 @@
   transform: translateY(-50%);
 }
 
+
+// # Generate classes from 5 to 100 with 5 step difference
+// # Example
+// # .u-pushLef5, .u-pushLef10, .u-pushLef15
+@for $value from 5 through ceil(100) {
+  .u-pushLeft#{$value} {
+    margin-left: #{$value}px;
+  }
+
+  .u-pushRight#{$value} {
+    margin-right: #{$value}px;
+  }
+}
+
 // # Layout
 // # =================================================================
 .u-clearfix {
