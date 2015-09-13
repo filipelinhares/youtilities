@@ -79,11 +79,11 @@
 }
 
 .u-noMargin {
-  margin: 0 !important;
+  margin: 0;
 }
 
 .u-noPadding {
-  padding: 0 !important;
+  padding: 0;
 }
 
 // # Text alignment
@@ -118,8 +118,12 @@
   text-transform: lowercase;
 }
 
+.u-textCap {
+  text-transform: capitalize;
+}
+
 .u-textNone {
-  text-transform: none !important;
+  text-transform: none;
 }
 
 // # Misc
@@ -128,4 +132,12 @@
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
+}
+
+// # Print
+// # =================================================================
+.u-noPrint {
+  @media print {
+    display: none !important;
+  }
 }
