@@ -108,6 +108,20 @@
   word-wrap: normal !important;
 }
 
+// # Text Transform
+// # =================================================================
+.u-textUp {
+  text-transform: uppercase;
+}
+
+.u-textLow {
+  text-transform: lowercase;
+}
+
+.u-textNone {
+  text-transform: none !important;
+}
+
 // # Misc
 // # =================================================================
 .u-imageReplace {
