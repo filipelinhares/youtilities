@@ -17,17 +17,40 @@
   transform: translateY(-50%);
 }
 
-
 // # Generate classes from 5 to 100 with 5 step difference
 // # Example
-// # .u-pushLef5, .u-pushLef10, .u-pushLef15
+// # .u-marginLft5, .u-marginLft10, .u-marginLft15
 @for $value from 5 through ceil(100) {
-  .u-pushLeft#{$value} {
+  .u-marginLft#{$value} {
     margin-left: #{$value}px;
   }
 
-  .u-pushRight#{$value} {
+  .u-marginRgt#{$value} {
     margin-right: #{$value}px;
+  }
+
+  .u-marginBot#{$value} {
+    margin-bottom: #{$value}px;
+  }
+
+  .u-marginTop#{$value} {
+    margin-top: #{$value}px;
+  }
+
+  .u-paddingLft#{$value} {
+    padding-left: #{$value}px;
+  }
+
+  .u-paddingRgt#{$value} {
+    padding-right: #{$value}px;
+  }
+
+  .u-paddingBot#{$value} {
+    padding-bottom: #{$value}px;
+  }
+
+  .u-paddingTop#{$value} {
+    padding-top: #{$value}px;
   }
 }
 
@@ -51,17 +74,17 @@
   float: left !important;
 }
 
-.u-floatRight {
+.u-floatRgt {
   float: right !important;
 }
 
 // # Text alignment
 // # =================================================================
-.u-textRight {
+.u-textRgt {
   text-align: right !important;
 }
 
-.u-textLeft {
+.u-textLft {
   text-align: left !important;
 }
 
@@ -79,7 +102,6 @@
 
 // # Misc
 // # =================================================================
-
 .u-imageReplace {
   font: 0/0 a;
   text-shadow: none;
