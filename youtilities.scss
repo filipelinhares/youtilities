@@ -17,17 +17,40 @@
   transform: translateY(-50%);
 }
 
-
 // # Generate classes from 5 to 100 with 5 step difference
 // # Example
-// # .u-pushLef5, .u-pushLef10, .u-pushLef15
+// # .u-marginLft5, .u-marginLft10, .u-marginLft15
 @for $value from 5 through ceil(100) {
-  .u-pushLeft#{$value} {
+  .u-marginLft#{$value} {
     margin-left: #{$value}px;
   }
 
-  .u-pushRight#{$value} {
+  .u-marginRgt#{$value} {
     margin-right: #{$value}px;
+  }
+
+  .u-marginBot#{$value} {
+    margin-bottom: #{$value}px;
+  }
+
+  .u-marginTop#{$value} {
+    margin-top: #{$value}px;
+  }
+
+  .u-paddingLft#{$value} {
+    padding-left: #{$value}px;
+  }
+
+  .u-paddingRgt#{$value} {
+    padding-right: #{$value}px;
+  }
+
+  .u-paddingBot#{$value} {
+    padding-bottom: #{$value}px;
+  }
+
+  .u-paddingTop#{$value} {
+    padding-top: #{$value}px;
   }
 }
 
@@ -51,17 +74,25 @@
   float: left !important;
 }
 
-.u-floatRight {
+.u-floatRgt {
   float: right !important;
+}
+
+.u-noMargin {
+  margin: 0;
+}
+
+.u-noPadding {
+  padding: 0;
 }
 
 // # Text alignment
 // # =================================================================
-.u-textRight {
+.u-textRgt {
   text-align: right !important;
 }
 
-.u-textLeft {
+.u-textLft {
   text-align: left !important;
 }
 
@@ -77,11 +108,36 @@
   word-wrap: normal !important;
 }
 
+// # Text Transform
+// # =================================================================
+.u-textUp {
+  text-transform: uppercase;
+}
+
+.u-textLow {
+  text-transform: lowercase;
+}
+
+.u-textCap {
+  text-transform: capitalize;
+}
+
+.u-textNone {
+  text-transform: none;
+}
+
 // # Misc
 // # =================================================================
-
 .u-imageReplace {
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
+}
+
+// # Print
+// # =================================================================
+.u-noPrint {
+  @media print {
+    display: none !important;
+  }
 }
