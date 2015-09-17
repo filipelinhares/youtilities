@@ -141,3 +141,13 @@
     display: none !important;
   }
 }
+
+.u-printable {
+  @media screen {
+    display: none;
+  }
+
+  @media print {
+    display: block;
+  }
+}

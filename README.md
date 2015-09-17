@@ -39,6 +39,7 @@ A set of utilities classes built with [Trumman](https://github.com/trummancss/tr
 
 #### Print
 - `.u-noPrint`
+- `.u-printable`
 
 ## License
 [MIT](LICENSE.md) © Filipe LInhares
