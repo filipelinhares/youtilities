@@ -19,8 +19,8 @@ A set of utilities classes built with [Trumman](https://github.com/trummancss/tr
 
 #### Layout
 - `.u-clearfix`
-- `.u-floatLeft`
-- `.u-floatRight`
+- `.u-floatLft`
+- `.u-floatRgt`
 
 #### Text alignment
 - `.u-textRgt`
